@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: white;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1024px;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  padding: 1rem;
+}
+
+h3{
+  font-size: 1.6rem;
+}
+
+.civil {
+  order: -1;
+  font-size: 1.4rem;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  color:white;
+  background-color:rgb(68, 0, 100) ;
+}
+
+img.photo {
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+.exp {
+  background-color:yellow ;
+  color: rgb(68, 0, 100);
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+address a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.divers {
+  color: rgb(68, 0, 100);
+}
+
+.divers li .deroulant {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.deroulant > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sous {
+ display: none;
+}
+
+#nom{
+ margin-top: 80px;
+}
+
+h1{
+  font-size: 40px;
+  margin: auto;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein{
+  from
+  {margin-left:100%; 
+    width:300%
+  }
+ to{
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+#ENSEIGNEMENT{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+}
+
+#EXPERIENCEPROFESSIONNELLE{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+}
+
+.QUALITES{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+} 
+
+.COMPETENCES{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.ETATCIVIL{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.INFORMATIQUE{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.LANGUES{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.LOISIRS{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.VOYAGES{
+  background-color:rgb(68, 0, 100) ;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.contact{
+  text-align: center;
+  margin-top: -80px;
+}
+
+#outils span{
+  display: flex;
+  justify-content: space-between;
+
+}
+#outils{
+  width: 200px;
+}
+/*Styles spécifiques pour les grands écrans type écrans d'ordinateur*/
+@media screen and (min-width: 980px)
+
+ {
+  .container {
+    width: 100%;
+  }
+
+  address a {
+    text-decoration: initial;
+  }
+  .sous {
+    display: block;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .contact{
+    text-align: center;
+  }
+  
+}
